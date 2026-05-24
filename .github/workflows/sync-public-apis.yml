@@ -1,0 +1,59 @@
+name: Sync Public APIs
+
+on:
+  schedule:
+    - cron: '0 8 * * 0'   # Every Sunday at 8 AM UTC
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write           # Needed to commit updated data files
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: scripts
+
+      - name: Fetch latest API data
+        run: node fetch.js
+        working-directory: scripts
+
+      - name: Generate diff report
+        run: node diff.js
+        working-directory: scripts
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          # Only commit if there are actual changes
+          git diff --cached --quiet || git commit -m "chore: sync public-apis data $(date +'%Y-%m-%d')"
+          git push
+
+      - name: Upload diff summary as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: api-diff-${{ github.run_id }}
+          path: data/latest-diff.md
+          retention-days: 90
+
+      - name: Post summary to job
+        run: |
+          if [ -f data/latest-diff.md ]; then
+            echo "## Public APIs Sync Summary" >> $GITHUB_STEP_SUMMARY
+            cat data/latest-diff.md >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No diff file generated." >> $GITHUB_STEP_SUMMARY
+          fi

@@ -1,0 +1,11 @@
+{
+  "name": "public-apis-sync-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for syncing and diffing public-apis data",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch.js",
+    "diff":  "node diff.js"
+  },
+  "dependencies": {}
+}
