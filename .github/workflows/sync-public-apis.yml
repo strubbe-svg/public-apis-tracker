@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: '20'
 
@@ -43,7 +43,7 @@ jobs:
           git push
 
       - name: Upload diff summary as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: api-diff-${{ github.run_id }}
           path: data/latest-diff.md
@@ -57,3 +57,4 @@ jobs:
           else
             echo "No diff file generated." >> $GITHUB_STEP_SUMMARY
           fi
+
