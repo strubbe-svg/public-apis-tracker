@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-24T17:31:45.292Z",
-  "count": 1475,
+  "fetchedAt": "2026-05-31T10:13:09.266Z",
+  "count": 1483,
   "entries": [
     {
       "API": "AdoptAPet",
@@ -901,6 +901,15 @@
       "Cors": "No",
       "Category": "Books",
       "Link": "https://www.abibliadigital.com.br/en"
+    },
+    {
+      "API": "Amanah Sunnah",
+      "Description": "Semantic search across Quran, Hadith, Tafsir & 18K+ Rijal narrators",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Books",
+      "Link": "https://sunnah.amanahagent.cloud/developers"
     },
     {
       "API": "Bhagavad Gita",
@@ -3351,6 +3360,15 @@
       "Link": "https://pusher.com/beams"
     },
     {
+      "API": "QR & Barcode",
+      "Description": "QR codes and barcodes (Code 128, EAN-13, Data Matrix, PDF417 + more). SVG or PNG output",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Development",
+      "Link": "https://solsigs.com/qrapi/"
+    },
+    {
       "API": "QR code",
       "Description": "Create an easy to read QR code and URL shortener",
       "Auth": "No",
@@ -4600,6 +4618,15 @@
       "Cors": "Yes",
       "Category": "Finance",
       "Link": "https://www.econdb.com/api/"
+    },
+    {
+      "API": "EconPulse",
+      "Description": "Live economic data — CPI, PPI, energy, treasury rates, BTC premium",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Finance",
+      "Link": "https://econpulse.io"
     },
     {
       "API": "Fed Treasury",
@@ -6301,6 +6328,15 @@
       "Cors": "Unknown",
       "Category": "Geocoding",
       "Link": "https://github.com/lennertVanSever/graphcountries"
+    },
+    {
+      "API": "HackMyIP",
+      "Description": "IP geolocation, ISP and privacy/VPN scoring, email breach checks, DNS and WHOIS lookups",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Geocoding",
+      "Link": "https://hackmyip.com/api"
     },
     {
       "API": "HelloSalut",
@@ -8967,6 +9003,15 @@
       "Link": "https://opendata.minneapolismn.gov/"
     },
     {
+      "API": "Open Scholarships",
+      "Description": "Free, openly-licensed directory of US scholarships and student aid from official sources",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Open Data",
+      "Link": "https://scholarships.grudged.io"
+    },
+    {
       "API": "openAFRICA",
       "Description": "Large datasets repository of African open data",
       "Auth": "No",
@@ -11532,6 +11577,15 @@
       "Link": "https://docs.aylien.com/textapi/#getting-started"
     },
     {
+      "API": "Audexum",
+      "Description": "Text-to-speech REST API with 43 voices and 33 languages",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Text Analysis",
+      "Link": "https://audexum.com/docs"
+    },
+    {
       "API": "Cloudmersive Natural Language Processing",
       "Description": "Natural language processing and text analysis",
       "Auth": "`apiKey`",
@@ -11962,6 +12016,15 @@
       "Cors": "Yes",
       "Category": "Transportation",
       "Link": "https://openchargemap.org/site/develop/api"
+    },
+    {
+      "API": "Orizn Visa",
+      "Description": "Visa requirements for 199 countries, 39K+ passport-destination pairs in 15 languages",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Transportation",
+      "Link": "https://visa.orizn.app"
     },
     {
       "API": "OpenSky Network",
@@ -12493,6 +12556,15 @@
       "Cors": "Unknown",
       "Category": "URL Shorteners",
       "Link": "https://developers.rebrandly.com/v1/docs"
+    },
+    {
+      "API": "RedirHub",
+      "Description": "URL redirect management with custom domains, HTTPS, analytics, and REST API",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "URL Shorteners",
+      "Link": "https://redirhub.com"
     },
     {
       "API": "Short Link",
