@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-06-07T10:26:33.178Z",
-  "count": 1547,
+  "fetchedAt": "2026-06-14T10:47:11.297Z",
+  "count": 1556,
   "entries": [
     {
       "API": "AdoptAPet",
@@ -1281,6 +1281,15 @@
       "Link": "https://api.orb-intelligence.com/docs/"
     },
     {
+      "API": "Pick an Agency",
+      "Description": "Search 47,000+ marketing agencies by service, location and rating",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Business",
+      "Link": "https://www.pickanagency.com/developers"
+    },
+    {
       "API": "Redash",
       "Description": "Access your queries and dashboards on Redash",
       "Auth": "`apiKey`",
@@ -2170,6 +2179,15 @@
       "Cors": "Unknown",
       "Category": "Cryptocurrency",
       "Link": "https://huobiapi.github.io/docs/spot/v1/en/"
+    },
+    {
+      "API": "Hyperliquid Market Data",
+      "Description": "Hyperliquid open interest, funding and cross-venue predicted rates per coin",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Cryptocurrency",
+      "Link": "https://rapidapi.com/theliminalguy/api/hyperliquid-market-data-oi-funding-open-interest"
     },
     {
       "API": "icy.tools",
@@ -6645,6 +6663,15 @@
       "Link": "https://ip-api.com/docs"
     },
     {
+      "API": "IP-API.io",
+      "Description": "IP geolocation with VPN/proxy/Tor detection, reputation and risk score",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Geocoding",
+      "Link": "https://ip-api.io"
+    },
+    {
       "API": "IP Geolocation",
       "Description": "Geolocate website visitors from their IPs",
       "Auth": "`apiKey`",
@@ -6751,6 +6778,15 @@
       "Cors": "Yes",
       "Category": "Geocoding",
       "Link": "https://kiprio.com/v1/postcode"
+    },
+    {
+      "API": "LatLng",
+      "Description": "Geocoding, reverse geocoding, places, and static maps",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Geocoding",
+      "Link": "https://www.latlng.work/docs"
     },
     {
       "API": "LocationIQ",
@@ -8058,6 +8094,15 @@
       "Link": "https://data.covid19.go.id/public/api/prov.json"
     },
     {
+      "API": "Cure Cancer With AI",
+      "Description": "Oncology research, clinical trials, FDA approvals, news, and MAMMAL predictions",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "No",
+      "Category": "Health",
+      "Link": "https://www.curecancerwithai.com/developers"
+    },
+    {
       "API": "Dataflow Kit COVID-19",
       "Description": "COVID-19 live statistics into sites per hour",
       "Auth": "No",
@@ -9093,6 +9138,15 @@
       "Link": "https://rapidapi.com/machaao-inc-machaao-inc-default/api/newsx/"
     },
     {
+      "API": "Noozra",
+      "Description": "Free news headlines from 200+ curated RSS sources",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "News",
+      "Link": "https://noozra.com/api"
+    },
+    {
       "API": "NPR One",
       "Description": "Personalized news listening experience from NPR",
       "Auth": "`OAuth`",
@@ -9255,6 +9309,15 @@
       "Link": "https://www.destatis.de/EN/Service/OpenData/api-webservice.html"
     },
     {
+      "API": "InfraNode",
+      "Description": "Unified German city open data: weather, air quality, EV chargers, transit, demographics",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Open Data",
+      "Link": "https://infranode.dev"
+    },
+    {
       "API": "Joshua Project",
       "Description": "People groups of the world with the fewest followers of Christ",
       "Auth": "`apiKey`",
@@ -9262,6 +9325,15 @@
       "Cors": "Unknown",
       "Category": "Open Data",
       "Link": "https://api.joshuaproject.net/"
+    },
+    {
+      "API": "K-Data Gate",
+      "Description": "Korean market data: K-beauty/K-food products, Naver trends, stocks, real estate, weather",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Open Data",
+      "Link": "https://kdata-gate.vercel.app/docs"
     },
     {
       "API": "Kaggle",
@@ -9919,6 +9991,15 @@
       "Cors": "Yes",
       "Category": "Phone",
       "Link": "https://veriphone.io"
+    },
+    {
+      "API": "VeriRoute Intel",
+      "Description": "CNAM caller ID, carrier/LRN lookup and spam scoring for North American phone numbers",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Phone",
+      "Link": "https://verirouteintel.com"
     },
     {
       "API": "Screenshotlayer",
