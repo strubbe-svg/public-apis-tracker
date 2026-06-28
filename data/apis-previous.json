@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-06-14T10:47:11.297Z",
-  "count": 1556,
+  "fetchedAt": "2026-06-21T09:17:33.140Z",
+  "count": 1560,
   "entries": [
     {
       "API": "AdoptAPet",
@@ -1920,6 +1920,15 @@
       "Link": "https://bravenewcoin.com/developers"
     },
     {
+      "API": "btcnode.uk",
+      "Description": "Bitcoin blockchain data, fees, mempool, SEC insider trades, Reddit sentiment. x402 micropayments for paid endpoints.",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Cryptocurrency",
+      "Link": "https://btcnode.uk"
+    },
+    {
       "API": "BtcTurk",
       "Description": "Real-time cryptocurrency data, graphs and API that allows buy&sell",
       "Auth": "`apiKey`",
@@ -3664,6 +3673,15 @@
       "Cors": "Unknown",
       "Category": "Development",
       "Link": "http://shoutcloud.io/"
+    },
+    {
+      "API": "SiteIntel",
+      "Description": "Extract metadata, tech stack, emails, and screenshots from any URL",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Development",
+      "Link": "https://siteintel.duckdns.org"
     },
     {
       "API": "Sonar",
@@ -8517,6 +8535,15 @@
       "Link": "http://uttesh.com/exude-api/"
     },
     {
+      "API": "GoldBean",
+      "Description": "OCR, Translation, NLP & ERNIE LLM via Baidu AI (free tier available)",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Machine Learning",
+      "Link": "https://goldbean-api.xyz/docs"
+    },
+    {
       "API": "Groq",
       "Description": "Fast AI inference API with free tier, supports Llama, Mixtral, Gemma models",
       "Auth": "`apiKey`",
@@ -10990,6 +11017,15 @@
       "Cors": "Unknown",
       "Category": "Shopping",
       "Link": "https://bestbuyapis.github.io/api-documentation/#overview"
+    },
+    {
+      "API": "BuyWhere",
+      "Description": "Real-time product catalog API for AI agents across merchants in 7 countries (SG, MY, TH, VN, PH, ID, US)",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Shopping",
+      "Link": "https://buywhere.ai"
     },
     {
       "API": "Digi-Key",
