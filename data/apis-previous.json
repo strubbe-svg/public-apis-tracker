@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-06-21T09:17:33.140Z",
-  "count": 1560,
+  "fetchedAt": "2026-06-28T09:04:57.243Z",
+  "count": 1573,
   "entries": [
     {
       "API": "AdoptAPet",
@@ -172,15 +172,6 @@
       "Cors": "Yes",
       "Category": "Animals",
       "Link": "https://place.dog"
-    },
-    {
-      "API": "PlaceKitten",
-      "Description": "Placeholder Kitten pictures",
-      "Auth": "No",
-      "HTTPS": true,
-      "Cors": "Yes",
-      "Category": "Animals",
-      "Link": "https://placekitten.com/"
     },
     {
       "API": "RandomDog",
@@ -1272,6 +1263,15 @@
       "Link": "https://markerapi.com"
     },
     {
+      "API": "Meirra",
+      "Description": "SEO monitoring, email verification, lead generation, and marketing analytics",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Business",
+      "Link": "https://meirra.com/api"
+    },
+    {
       "API": "ORB Intelligence",
       "Description": "Company lookup",
       "Auth": "`apiKey`",
@@ -1893,6 +1893,15 @@
       "Link": "https://block.io/docs/basic"
     },
     {
+      "API": "Block Lottos",
+      "Description": "On-chain lottery, draw history, jackpot and advertising endpoints",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Cryptocurrency",
+      "Link": "https://blocklottos.com/openapi.json"
+    },
+    {
       "API": "Blockchain",
       "Description": "Bitcoin Payment, Wallet & Transaction Data",
       "Auth": "`apiKey`",
@@ -2280,6 +2289,15 @@
       "Link": "https://messari.io/api"
     },
     {
+      "API": "Mexc",
+      "Description": "Cryptocurrency info, place order",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Cryptocurrency",
+      "Link": "https://www.mexc.com/api-docs"
+    },
+    {
       "API": "Nexchange",
       "Description": "Automated cryptocurrency exchange service",
       "Auth": "No",
@@ -2530,6 +2548,15 @@
       "Cors": "Yes",
       "Category": "Currency Exchange",
       "Link": "https://paralelo.bo/api"
+    },
+    {
+      "API": "TaxID",
+      "Description": "EU VAT number validation with company name and address lookup across all 27 member states",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Currency Exchange",
+      "Link": "https://www.taxid.dev/docs"
     },
     {
       "API": "VATComply.com",
@@ -3783,6 +3810,15 @@
       "Link": "https://github.com/melpon/wandbox/blob/master/kennel2/API.rst"
     },
     {
+      "API": "Webclaw",
+      "Description": "Web content extraction for LLMs with scrape, crawl, search, and summarize",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Development",
+      "Link": "https://webclaw.io/docs/api"
+    },
+    {
       "API": "WebScraping.AI",
       "Description": "Web Scraping API with built-in proxies and JS rendering",
       "Auth": "`apiKey`",
@@ -4107,6 +4143,15 @@
       "Link": "https://developers.pandadoc.com"
     },
     {
+      "API": "PDFFleet",
+      "Description": "HTML and URL to PDF API with templates and a free tier",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Documents & Productivity",
+      "Link": "https://pdffleet.com"
+    },
+    {
       "API": "Pocket",
       "Description": "Bookmarking service",
       "Auth": "`OAuth`",
@@ -4123,6 +4168,15 @@
       "Cors": "Unknown",
       "Category": "Documents & Productivity",
       "Link": "https://developers.podio.com"
+    },
+    {
+      "API": "PolyDoc",
+      "Description": "HTML/URL to PDF and screenshots, plus Factur-X/ZUGFeRD e-invoices; free tier",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Documents & Productivity",
+      "Link": "https://polydoc.tech"
     },
     {
       "API": "PrexView",
@@ -4863,6 +4917,15 @@
       "Link": "https://econpulse.io"
     },
     {
+      "API": "Edgrapi",
+      "Description": "Clean SEC EDGAR company financials, ratios, filings and 10-K/10-Q sections as normalized JSON",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Finance",
+      "Link": "https://edgrapi.com"
+    },
+    {
       "API": "Fed Treasury",
       "Description": "U.S. Department of the Treasury Data",
       "Auth": "No",
@@ -5104,6 +5167,15 @@
       "Cors": "Yes",
       "Category": "Finance",
       "Link": "https://www.StockData.org"
+    },
+    {
+      "API": "StockFit",
+      "Description": "SEC filings, financial statements, earnings, ETF holdings and ownership data",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Finance",
+      "Link": "https://api.stockfit.io/docs"
     },
     {
       "API": "Styvio",
@@ -7338,6 +7410,15 @@
       "Link": "http://opendata.dc.gov/pages/using-apis"
     },
     {
+      "API": "eCourtsIndia",
+      "Description": "Indian court case status, judgments, and hearing schedule API",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Government",
+      "Link": "https://ecourtsindia.com/api"
+    },
+    {
       "API": "EPA",
       "Description": "Web services and data sets from the US Environmental Protection Agency",
       "Auth": "No",
@@ -7894,6 +7975,15 @@
       "Cors": "Unknown",
       "Category": "Government",
       "Link": "https://data.wa.gov.au/"
+    },
+    {
+      "API": "OpenMercantil",
+      "Description": "Spanish company public data and BORME event timelines",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Government",
+      "Link": "https://openmercantil.es/api/documentacion"
     },
     {
       "API": "OpenRegistry",
@@ -8650,6 +8740,15 @@
       "Cors": "Unknown",
       "Category": "Machine Learning",
       "Link": "https://nlpcloud.io"
+    },
+    {
+      "API": "Not Human Search",
+      "Description": "AI tool discovery with agentic scoring for 8,600+ tools and MCP servers",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Machine Learning",
+      "Link": "https://nothumansearch.ai/openapi.yaml"
     },
     {
       "API": "OpenVisionAPI",
@@ -10740,6 +10839,15 @@
       "Link": "https://github.com/Dehash-lt/api"
     },
     {
+      "API": "Domain Intelligence",
+      "Description": "DNS, WHOIS/RDAP, SSL, subdomain enumeration, and email security in one parallel call",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "No",
+      "Category": "Security",
+      "Link": "https://oti-labs.com/domain-intelligence-api"
+    },
+    {
       "API": "EmailRep",
       "Description": "Email address threat and risk prediction",
       "Auth": "No",
@@ -12331,6 +12439,15 @@
       "Cors": "Unknown",
       "Category": "Tracking",
       "Link": "https://cws.correios.com.br/ajuda"
+    },
+    {
+      "API": "Mapbox",
+      "Description": "Maps, directions, geocoding",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Tracking",
+      "Link": "https://docs.mapbox.com/api/"
     },
     {
       "API": "Pixela",
