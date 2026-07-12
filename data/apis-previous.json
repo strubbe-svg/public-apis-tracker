@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-06-28T09:04:57.243Z",
-  "count": 1573,
+  "fetchedAt": "2026-07-05T09:03:26.390Z",
+  "count": 1579,
   "entries": [
     {
       "API": "AdoptAPet",
@@ -1866,6 +1866,15 @@
       "Link": "https://docs.bitfinex.com/docs"
     },
     {
+      "API": "BitPanda",
+      "Description": "Cryptocurrency Information",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Cryptocurrency",
+      "Link": "https://developers.bitpanda.com"
+    },
+    {
       "API": "Bitmex",
       "Description": "Real-Time Cryptocurrency derivatives trading platform based in Hong Kong",
       "Auth": "`apiKey`",
@@ -2512,6 +2521,15 @@
       "Cors": "Yes",
       "Category": "Currency Exchange",
       "Link": "https://www.exchangerate-api.com"
+    },
+    {
+      "API": "Exchangerate.dev",
+      "Description": "Live & historical FX, 168 pairs back to 1999, Frankfurter-compatible, free 10k/mo",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Currency Exchange",
+      "Link": "https://exchangerate.dev/docs"
     },
     {
       "API": "Frankfurter",
@@ -3448,6 +3466,15 @@
       "Cors": "Unknown",
       "Category": "Development",
       "Link": "https://opengraphr.com/docs/1.0/overview"
+    },
+    {
+      "API": "OpenQR",
+      "Description": "Generate QR codes and manage dynamic (editable) QR codes with scan analytics",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Development",
+      "Link": "https://openqr.uk/api"
     },
     {
       "API": "oyyi",
@@ -4728,6 +4755,15 @@
       "Link": "https://developer.nrel.gov/docs/solar/pvwatts/v6/"
     },
     {
+      "API": "Solematica",
+      "Description": "Compare Italian solar (photovoltaic) installer offers, energy prices (PUN/ARERA) and satellite roof data",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "No",
+      "Category": "Environment",
+      "Link": "https://www.solematica.it/sviluppatori"
+    },
+    {
       "API": "Srp Energy",
       "Description": "Hourly usage energy report for Srp customers",
       "Auth": "`apiKey`",
@@ -4978,6 +5014,15 @@
       "Cors": "Yes",
       "Category": "Finance",
       "Link": "https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule"
+    },
+    {
+      "API": "Goldprice.dev",
+      "Description": "Cross-validated gold, silver & copper spot, futures & 30-year history in 13 currencies",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Finance",
+      "Link": "https://goldprice.dev/docs"
     },
     {
       "API": "Helium",
@@ -9579,6 +9624,15 @@
       "Link": "https://www.opensanctions.org/docs/api/"
     },
     {
+      "API": "Pan Africa Data",
+      "Description": "Macroeconomic and subnational income distribution data for all 54 African countries",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Open Data",
+      "Link": "https://panafricadata.com"
+    },
+    {
       "API": "PeakMetrics",
       "Description": "News articles and public datasets",
       "Auth": "`apiKey`",
@@ -12805,7 +12859,7 @@
       "Description": "Unified traffic data from 65 US/CA jurisdictions: events, cameras, signs, bridges, truck routes",
       "Auth": "`apiKey`",
       "HTTPS": true,
-      "Cors": "Yes",
+      "Cors": "No",
       "Category": "Transportation",
       "Link": "https://road511.com/docs.html"
     },
