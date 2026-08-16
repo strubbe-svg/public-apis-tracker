@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-09T08:14:30.379Z",
-  "count": 1639,
+  "fetchedAt": "2026-08-16T08:06:47.582Z",
+  "count": 1665,
   "entries": [
     {
       "API": "AdoptAPet",
@@ -442,6 +442,15 @@
       "Cors": "Unknown",
       "Category": "Anti-Malware",
       "Link": "https://developers.google.com/safe-browsing/"
+    },
+    {
+      "API": "IPWhois.net Blacklist",
+      "Description": "Community IP blacklist to check and report abusive IP addresses",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Anti-Malware",
+      "Link": "https://ipwhois.net/blacklist/docs"
     },
     {
       "API": "MalDatabase",
@@ -1243,6 +1252,15 @@
       "Cors": "No",
       "Category": "Business",
       "Link": "https://invovate.com/api"
+    },
+    {
+      "API": "Legal Sandbox Georgia",
+      "Description": "Find verified legal specialists in Georgia from natural-language queries",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Business",
+      "Link": "https://legal.ge/api/openapi.json"
     },
     {
       "API": "Mailchimp",
@@ -2082,6 +2100,15 @@
       "Link": "https://coinlib.io/apidocs"
     },
     {
+      "API": "CoinLobster",
+      "Description": "Live executed whale trades across 15 exchanges and on-chain DEX with an unusualness radar",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Cryptocurrency",
+      "Link": "https://coinlobster.com/developers"
+    },
+    {
       "API": "Coinlore",
       "Description": "Cryptocurrencies prices, volume and more",
       "Auth": "No",
@@ -2341,6 +2368,15 @@
       "Cors": "Unknown",
       "Category": "Cryptocurrency",
       "Link": "https://www.mexc.com/api-docs"
+    },
+    {
+      "API": "monerometrics",
+      "Description": "Reorg-aware Monero (XMR) network metrics, mining-pool centralization and chain reorganizations",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Cryptocurrency",
+      "Link": "https://monerometrics.net"
     },
     {
       "API": "Nexchange",
@@ -3009,6 +3045,15 @@
       "Link": "https://status.digitalocean.com/api"
     },
     {
+      "API": "DigMyName",
+      "Description": "Domain availability and registrar pricing across 52 TLDs",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Development",
+      "Link": "https://digmyname.com/api"
+    },
+    {
       "API": "Docker Hub",
       "Description": "Interact with Docker Hub",
       "Auth": "`apiKey`",
@@ -3594,6 +3639,15 @@
       "Link": "https://openqr.uk/api"
     },
     {
+      "API": "OutageDeck",
+      "Description": "Live status and incidents for 170+ cloud and SaaS providers from official feeds",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Development",
+      "Link": "https://outagedeck.com/developers/api"
+    },
+    {
       "API": "oyyi",
       "Description": "API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation",
       "Auth": "No",
@@ -3610,6 +3664,15 @@
       "Cors": "Yes",
       "Category": "Development",
       "Link": "https://pagecdn.com/docs/public-api"
+    },
+    {
+      "API": "Phone Specs",
+      "Description": "Real-time smartphone specifications database for 263 devices",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Development",
+      "Link": "https://phone-specs-api-production.up.railway.app/docs"
     },
     {
       "API": "Postman",
@@ -3954,6 +4017,15 @@
       "Link": "https://thunderbit.com/docs/introduction"
     },
     {
+      "API": "TinyMind Agent Tools",
+      "Description": "Free APIs by an AI agent on a VPS: actor lookup, word-of-the-day, poems, jokes, ping",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Development",
+      "Link": "https://tinymind.eu/api/"
+    },
+    {
       "API": "Tyk",
       "Description": "Api and service management platform",
       "Auth": "`apiKey`",
@@ -3979,6 +4051,15 @@
       "Cors": "Unknown",
       "Category": "Development",
       "Link": "https://github.com/melpon/wandbox/blob/master/kennel2/API.rst"
+    },
+    {
+      "API": "Web Metadata & Contact Extractor",
+      "Description": "Extract SEO metadata, contact emails, social links, and tech stack (<200ms)",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Development",
+      "Link": "https://rapidapi.com/josejuanjocoding/api/web-metadata-and-contact-extractor"
     },
     {
       "API": "Webclaw",
@@ -4485,6 +4566,15 @@
       "Link": "https://guild.tradeuniquecapital.com/api"
     },
     {
+      "API": "Atomic Mail",
+      "Description": "Email for AI agents: programmatic inbox creation and send/receive over JMAP",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Email",
+      "Link": "https://atomic-mail.github.io/atomic-mail-agentic/"
+    },
+    {
       "API": "Cloudmersive Validate",
       "Description": "Validate email addresses, phone numbers, VAT numbers and domain names",
       "Auth": "`apiKey`",
@@ -4681,6 +4771,15 @@
       "Cors": "Yes",
       "Category": "Entertainment",
       "Link": "https://github.com/sameerkumar18/corporate-bs-generator-api"
+    },
+    {
+      "API": "CosmyDay Astrology",
+      "Description": "Natal charts and sky events computed from Swiss Ephemeris",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Entertainment",
+      "Link": "https://cosmyday.com/api-docs"
     },
     {
       "API": "Excuser",
@@ -5151,6 +5250,15 @@
       "Link": "https://fiscaldata.treasury.gov/api-documentation/"
     },
     {
+      "API": "Filingrail",
+      "Description": "SEC EDGAR filings, XBRL financials, Form 4 insider trades, 8-K events and 13F holdings",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Finance",
+      "Link": "https://rapidapi.com/hudson-enterprises-llc-hudson-enterprises-llc-default/api/filingrail"
+    },
+    {
       "API": "Finage",
       "Description": "Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider",
       "Auth": "`apiKey`",
@@ -5311,6 +5419,15 @@
       "Cors": "Unknown",
       "Category": "Finance",
       "Link": "https://docs.moov.io/api/"
+    },
+    {
+      "API": "NORTH7 Agent",
+      "Description": "Trading signals, market analysis and geopolitical intelligence",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Finance",
+      "Link": "https://north7.ai/v1/docs"
     },
     {
       "API": "Nordigen",
@@ -6229,6 +6346,15 @@
       "Cors": "Unknown",
       "Category": "Games & Comics",
       "Link": "http://jservice.io"
+    },
+    {
+      "API": "KrakenKeys",
+      "Description": "Steam game key price comparison across 20+ stores, deals, and price history",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "No",
+      "Category": "Games & Comics",
+      "Link": "https://krakenkeys.com/api-docs"
     },
     {
       "API": "Lichess",
@@ -8913,6 +9039,15 @@
       "Link": "https://aiforthai.in.th/index.php"
     },
     {
+      "API": "BRAINIALL",
+      "Description": "PT-BR and Spanish audio transcription with diarization and SRT/VTT",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Machine Learning",
+      "Link": "https://github.com/fasuizu-br/brainiall-transcription-skill"
+    },
+    {
       "API": "Clarifai",
       "Description": "Computer Vision",
       "Auth": "`OAuth`",
@@ -8956,6 +9091,15 @@
       "Cors": "Unknown",
       "Category": "Machine Learning",
       "Link": "https://cloud.google.com/dialogflow/docs/"
+    },
+    {
+      "API": "DreamThreads",
+      "Description": "Parse dreams into structured entities, emotions, agency, threat, and outcomes",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Machine Learning",
+      "Link": "https://mydreamthreads.xyz/dream-interpretation-api"
     },
     {
       "API": "EXUDE-API",
@@ -9822,6 +9966,15 @@
       "Link": "https://infranode.dev"
     },
     {
+      "API": "i6eal Open AI Data",
+      "Description": "Open datasets on AI policy, regulation and public-sector adoption in Germany and the EU",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Open Data",
+      "Link": "https://i6eal.de/en/tools/data/"
+    },
+    {
       "API": "Joshua Project",
       "Description": "People groups of the world with the fewest followers of Christ",
       "Auth": "`apiKey`",
@@ -9856,6 +10009,15 @@
       "Cors": "Yes",
       "Category": "Open Data",
       "Link": "https://www.linkpreview.net"
+    },
+    {
+      "API": "LottoLens PH",
+      "Description": "Fixed Philippine PCSO historical results and normal draw schedules",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Open Data",
+      "Link": "https://remo65588-boop.github.io/lottolens-ph-public-data/api/"
     },
     {
       "API": "Lowy Asia Power Index",
@@ -10884,6 +11046,15 @@
       "Link": "https://core.ac.uk/services#api"
     },
     {
+      "API": "CycleCalcs",
+      "Description": "Interpreted astronomy: sun and moon times, moon phases, planets, eclipses, seasons",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Science & Math",
+      "Link": "https://www.cyclecalcs.com/api.html"
+    },
+    {
       "API": "GBIF",
       "Description": "Global Biodiversity Information Facility",
       "Auth": "No",
@@ -11161,6 +11332,15 @@
       "Cors": "No",
       "Category": "Science & Math",
       "Link": "https://waterservices.usgs.gov/"
+    },
+    {
+      "API": "VedIntel™ AstroAPI",
+      "Description": "Vedic astrology computation — birth charts, dashas, panchang, AI narratives",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Science & Math",
+      "Link": "https://vedintelastroapi.com/docs"
     },
     {
       "API": "World Bank",
@@ -12054,6 +12234,15 @@
       "Link": "https://api.slack.com/"
     },
     {
+      "API": "SocialSwarm",
+      "Description": "Turn articles into ready-to-post X thread drafts with different hooks",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "No",
+      "Category": "Social",
+      "Link": "https://social-swarm-main-aa77a19.zuplo.site"
+    },
+    {
       "API": "TamTam",
       "Description": "Bot API to interact with TamTam",
       "Auth": "`apiKey`",
@@ -12142,6 +12331,15 @@
       "Cors": "No",
       "Category": "Social",
       "Link": "https://developer.twitter.com/en/docs"
+    },
+    {
+      "API": "TwitterAPIs",
+      "Description": "Twitter / X data API: search, profiles, timelines, followers, DMs, write actions",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Social",
+      "Link": "https://www.twitterapis.com/"
     },
     {
       "API": "vk",
@@ -12403,6 +12601,15 @@
       "Cors": "Yes",
       "Category": "Sports & Fitness",
       "Link": "https://padelsnipe.com/fr/world/api"
+    },
+    {
+      "API": "PlayerElo",
+      "Description": "Player-level Elo ratings, predictions and history for 176 football leagues",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Sports & Fitness",
+      "Link": "https://playerelo.football/api-access"
     },
     {
       "API": "Premier League Standings",
@@ -13215,6 +13422,15 @@
       "Link": "https://www.mbta.com/developers/v3-api"
     },
     {
+      "API": "Can I enter",
+      "Description": "Visa and entry requirements for 199 passports, cited to official sources, verified daily",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Transportation",
+      "Link": "https://canienter.com"
+    },
+    {
       "API": "Community Transit",
       "Description": "Transitland API",
       "Auth": "No",
@@ -13411,6 +13627,15 @@
       "Cors": "Unknown",
       "Category": "Transportation",
       "Link": "https://developer.schiphol.nl/"
+    },
+    {
+      "API": "Strait of Hormuz Ship Monitor",
+      "Description": "Live AIS vessel traffic, crossings and oil flow through the Strait of Hormuz",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "No",
+      "Category": "Transportation",
+      "Link": "https://hormuz.data-tracking.net/llms.txt"
     },
     {
       "API": "Tankerkoenig",
@@ -14527,6 +14752,15 @@
       "Cors": "Unknown",
       "Category": "Weather",
       "Link": "https://developer.foreca.com"
+    },
+    {
+      "API": "Hail History",
+      "Description": "Radar-detected hail history for any US address from NOAA NEXRAD Level-III hail detections, by year",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Weather",
+      "Link": "https://hail-history-noaa.netlify.app/api-docs.html"
     },
     {
       "API": "HG Weather",
