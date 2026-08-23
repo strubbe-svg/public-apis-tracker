@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-16T08:06:47.582Z",
-  "count": 1665,
+  "fetchedAt": "2026-08-23T08:06:52.893Z",
+  "count": 1688,
   "entries": [
     {
       "API": "AdoptAPet",
@@ -651,6 +651,15 @@
       "Link": "https://developer.iconfinder.com"
     },
     {
+      "API": "Iconify",
+      "Description": "Search and fetch SVG icons from 200+ open source icon sets",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Art & Design",
+      "Link": "https://iconify.design/docs/api/"
+    },
+    {
       "API": "Icons8",
       "Description": "Icons (find \"search icon\" hyperlink in page)",
       "Auth": "No",
@@ -874,6 +883,15 @@
       "Cors": "Yes",
       "Category": "Blockchain",
       "Link": "https://etherscan.io/apis"
+    },
+    {
+      "API": "Get Started with Web3",
+      "Description": "Bilingual Web3 lessons, glossary search and role-based learning paths",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Blockchain",
+      "Link": "https://github.com/beihaili/Get-Started-with-Web3/blob/main/docs/api.md"
     },
     {
       "API": "Helium",
@@ -2694,6 +2712,15 @@
       "Link": "https://vatlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers"
     },
     {
+      "API": "Attestwire",
+      "Description": "Validate EN 16931 e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Data Validation",
+      "Link": "https://api.attestwire.com/docs"
+    },
+    {
       "API": "Lob.com",
       "Description": "US Address Verification",
       "Auth": "`apiKey`",
@@ -2728,6 +2755,15 @@
       "Cors": "Unknown",
       "Category": "Data Validation",
       "Link": "https://rapidapi.com/kaiasistentedavid/api/schema-change-risk"
+    },
+    {
+      "API": "Temsor",
+      "Description": "Validates Turkish national ID, tax number, IBAN, phone, plate and parses addresses",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Data Validation",
+      "Link": "https://api.temsor.com/docs"
     },
     {
       "API": "US Autocomplete",
@@ -2907,7 +2943,7 @@
       "HTTPS": true,
       "Cors": "Unknown",
       "Category": "Development",
-      "Link": "https://www.boredapi.com/"
+      "Link": "https://bored-api.appbrewery.com/"
     },
     {
       "API": "Brainshop.ai",
@@ -3522,6 +3558,15 @@
       "Link": "https://m3o.com/db"
     },
     {
+      "API": "Micro-SaaS AI Suite",
+      "Description": "8 serverless AI APIs for sentiment analysis, copy generation, email verification, & OCR",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Development",
+      "Link": "https://microsaas-agent-api.vercel.app/openapi.json"
+    },
+    {
       "API": "MicroENV",
       "Description": "Fake Rest API for developers",
       "Auth": "No",
@@ -3637,6 +3682,15 @@
       "Cors": "Yes",
       "Category": "Development",
       "Link": "https://openqr.uk/api"
+    },
+    {
+      "API": "Orca Scan",
+      "Description": "Generate barcode images (QR, Code 128, EAN, Data Matrix and more) in SVG, PNG, JPG or PDF",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Development",
+      "Link": "https://orcascan.com/guides/free-barcode-image-api-0e4a4fa6"
     },
     {
       "API": "OutageDeck",
@@ -4737,6 +4791,15 @@
       "Link": "https://developers.sendinblue.com/docs"
     },
     {
+      "API": "uchecker",
+      "Description": "Bulk email verification with full SMTP server responses",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Email",
+      "Link": "https://api.uchecker.net/docs"
+    },
+    {
       "API": "Verifier",
       "Description": "Verifies that a given email is real",
       "Auth": "`apiKey`",
@@ -4969,6 +5032,15 @@
       "Cors": "Unknown",
       "Category": "Environment",
       "Link": "https://www.iqair.com/air-pollution-data-api"
+    },
+    {
+      "API": "kanari",
+      "Description": "Real-time worldwide wildfire detections, water bomber tracking and open fire archive",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Environment",
+      "Link": "https://kanari.io/en/api"
     },
     {
       "API": "Luchtmeetnet",
@@ -6492,6 +6564,15 @@
       "Link": "https://pokemontcg.io"
     },
     {
+      "API": "PokéSprite",
+      "Description": "Database of Pokémon sprites and icons",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Games & Comics",
+      "Link": "https://msikma.github.io/pokesprite/"
+    },
+    {
       "API": "Psychonauts",
       "Description": "Psychonauts World Characters Information and PSI Powers",
       "Auth": "No",
@@ -6544,6 +6625,15 @@
       "Cors": "Unknown",
       "Category": "Games & Comics",
       "Link": "https://rawg.io/apidocs"
+    },
+    {
+      "API": "Rblxdb",
+      "Description": "Verified Roblox music codes and decal IDs with live working status",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Games & Comics",
+      "Link": "https://rblxdb.com/developers"
     },
     {
       "API": "Rick and Morty",
@@ -6625,6 +6715,15 @@
       "Cors": "No",
       "Category": "Games & Comics",
       "Link": "https://github.com/Revadike/InternalSteamWebAPI/wiki"
+    },
+    {
+      "API": "SteamGPT",
+      "Description": "Steam profiles, SteamID conversion, VAC/game bans, FACEIT stats and friends",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Games & Comics",
+      "Link": "https://steamgpt.net"
     },
     {
       "API": "SuperHeroes",
@@ -7230,6 +7329,15 @@
       "Link": "https://ipstack.com/"
     },
     {
+      "API": "ipwhois",
+      "Description": "IP geolocation with country, city, coordinates, ISP, timezone and flag data",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Geocoding",
+      "Link": "https://ipwhois.io/documentation"
+    },
+    {
       "API": "Kakao Maps",
       "Description": "Kakao Maps provide multiple APIs for Korean maps",
       "Auth": "`apiKey`",
@@ -7813,6 +7921,15 @@
       "Cors": "Unknown",
       "Category": "Government",
       "Link": "http://opendata.dc.gov/pages/using-apis"
+    },
+    {
+      "API": "DistrictAPI",
+      "Description": "US school districts and schools by address, with enrollment and boundaries",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Government",
+      "Link": "https://districtapi.dev/docs"
     },
     {
       "API": "eCourtsIndia",
@@ -8481,6 +8598,15 @@
       "Link": "https://api.usaspending.gov/"
     },
     {
+      "API": "Vett",
+      "Description": "Screen names & companies against OFAC, PEP, watchlists & recalls",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Government",
+      "Link": "https://wimberly.solutions/api/free-sanctions-check/"
+    },
+    {
       "API": "Clinical Trials Directory",
       "Description": "Every clinical trial registered with ClinicalTrials.gov, indexed by condition and sponsor",
       "Auth": "No",
@@ -9118,6 +9244,15 @@
       "Cors": "Unknown",
       "Category": "Machine Learning",
       "Link": "https://goldbean-api.xyz/docs"
+    },
+    {
+      "API": "Google Gemini",
+      "Description": "Multimodal generative AI for text, vision, and code generation",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Machine Learning",
+      "Link": "https://ai.google.dev/gemini-api/docs"
     },
     {
       "API": "Groq",
@@ -9919,6 +10054,15 @@
       "Cors": "Unknown",
       "Category": "Open Data",
       "Link": "https://collegescorecard.ed.gov/data/"
+    },
+    {
+      "API": "CuttingToolsAI",
+      "Description": "Cross-brand carbide insert grade equivalents by ISO application class",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Open Data",
+      "Link": "https://cuttingtoolsai.eu/api"
     },
     {
       "API": "Enigma Public",
@@ -10848,6 +10992,15 @@
       "Link": "https://objectcut.com/"
     },
     {
+      "API": "Pexafy",
+      "Description": "Semantic image search across 9+ free stock photo sources with a unified JSON schema",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Photography",
+      "Link": "https://docs.pexafy.com"
+    },
+    {
       "API": "Pexels",
       "Description": "Free Stock Photos and Videos",
       "Auth": "`apiKey`",
@@ -11442,6 +11595,15 @@
       "Link": "https://crxcavator.io/apidocs"
     },
     {
+      "API": "CSR.plus",
+      "Description": "Generate certificate signing requests and private keys without OpenSSL",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Security",
+      "Link": "https://csr.plus/docs/api"
+    },
+    {
       "API": "dead-drop",
       "Description": "Ephemeral zero-knowledge encrypted data sharing",
       "Auth": "No",
@@ -11899,6 +12061,15 @@
       "Cors": "Unknown",
       "Category": "Shopping",
       "Link": "https://open.shopee.com/documents?version=1"
+    },
+    {
+      "API": "Sparepilot",
+      "Description": "Spare parts catalog, OEM cross-references & price comparison for garden power equipment",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Shopping",
+      "Link": "https://sparepilot.com/developers"
     },
     {
       "API": "Tokopedia",
@@ -12484,6 +12655,15 @@
       "Cors": "Yes",
       "Category": "Sports & Fitness",
       "Link": "https://www.scorebat.com/video-api/"
+    },
+    {
+      "API": "Football Charts",
+      "Description": "Tables, results, model probabilities and Monte Carlo season projections for 93 leagues",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Sports & Fitness",
+      "Link": "https://www.football-charts.com/developers"
     },
     {
       "API": "Football Standings",
@@ -14484,6 +14664,15 @@
       "Link": "https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api"
     },
     {
+      "API": "Shotstack",
+      "Description": "Cloud video editing API to create and render videos programmatically",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Video",
+      "Link": "https://shotstack.io/"
+    },
+    {
       "API": "Simkl",
       "Description": "Movie, TV and Anime data",
       "Auth": "`apiKey`",
@@ -14626,6 +14815,15 @@
       "Cors": "Yes",
       "Category": "Video",
       "Link": "https://rapidapi.com/unogs/api/unogsng"
+    },
+    {
+      "API": "VidWords",
+      "Description": "YouTube transcripts and subtitles as TXT, SRT, VTT or DOCX, plus AI video analysis",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "No",
+      "Category": "Video",
+      "Link": "https://vidwords.com/api-docs"
     },
     {
       "API": "Vimeo",
@@ -14968,6 +15166,15 @@
       "Cors": "Unknown",
       "Category": "Weather",
       "Link": "https://www.weatherbit.io/api"
+    },
+    {
+      "API": "World Time & Weather",
+      "Description": "Current weather, local time, UTC offset and DST rules for 400 cities as static JSON",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Weather",
+      "Link": "https://worldtimeweather.com/api.html"
     },
     {
       "API": "wttr.in",
