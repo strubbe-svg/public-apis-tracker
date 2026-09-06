@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-23T08:06:52.893Z",
-  "count": 1688,
+  "fetchedAt": "2026-08-30T08:11:26.248Z",
+  "count": 1699,
   "entries": [
     {
       "API": "AdoptAPet",
@@ -2010,6 +2010,15 @@
       "Link": "https://bravenewcoin.com/developers"
     },
     {
+      "API": "BTCGlobe",
+      "Description": "Bitcoin height, fees, mempool and peer data served live from two self-hosted nodes",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Cryptocurrency",
+      "Link": "https://btcglobe.live/join#makers"
+    },
+    {
       "API": "btcnode.uk",
       "Description": "Bitcoin blockchain data, fees, mempool, SEC insider trades, Reddit sentiment. x402 micropayments for paid endpoints.",
       "Auth": "No",
@@ -2593,6 +2602,15 @@
       "Cors": "Yes",
       "Category": "Currency Exchange",
       "Link": "https://github.com/fawazahmed0/currency-api#readme"
+    },
+    {
+      "API": "CurrencyBeacon",
+      "Description": "Real-time and historical currency exchange rates with free tier",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Currency Exchange",
+      "Link": "https://currencybeacon.com/"
     },
     {
       "API": "CurrencyFreaks",
@@ -4791,6 +4809,15 @@
       "Link": "https://developers.sendinblue.com/docs"
     },
     {
+      "API": "SMTPfast",
+      "Description": "Send transactional email, manage contacts and broadcasts, free 3,000 emails/month",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Email",
+      "Link": "https://smtpfa.st/docs"
+    },
+    {
       "API": "uchecker",
       "Description": "Bulk email verification with full SMTP server responses",
       "Auth": "`apiKey`",
@@ -5313,6 +5340,15 @@
       "Link": "https://edgrapi.com"
     },
     {
+      "API": "EOD Historical Data",
+      "Description": "Real-time and historical stock market data with 150+ exchanges",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Finance",
+      "Link": "https://eodhd.com/"
+    },
+    {
       "API": "Fed Treasury",
       "Description": "U.S. Department of the Treasury Data",
       "Auth": "No",
@@ -5464,6 +5500,15 @@
       "Cors": "Unknown",
       "Category": "Finance",
       "Link": "https://docs.klarna.com/klarna-payments/api/payments-api/"
+    },
+    {
+      "API": "LiquiLens",
+      "Description": "Public-record bank and lender failure-risk evidence",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Finance",
+      "Link": "https://liquilens.in/developers/"
     },
     {
       "API": "MercadoPago",
@@ -5626,6 +5671,15 @@
       "Cors": "Unknown",
       "Category": "Finance",
       "Link": "https://apilayer.com/marketplace/tax_data-api"
+    },
+    {
+      "API": "TickerLayer",
+      "Description": "Real-time and historical market data for stocks, forex, crypto and more",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Finance",
+      "Link": "https://tickerlayer.com"
     },
     {
       "API": "Top 5 Stocks",
@@ -11298,6 +11352,15 @@
       "Link": "https://api.nasa.gov"
     },
     {
+      "API": "NASA InSight",
+      "Description": "Mars weather data from InSight lander",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Science & Math",
+      "Link": "https://api.nasa.gov/"
+    },
+    {
       "API": "NASA ADS",
       "Description": "NASA Astrophysics Data System",
       "Auth": "`OAuth`",
@@ -12405,6 +12468,15 @@
       "Link": "https://api.slack.com/"
     },
     {
+      "API": "SocialCrawl",
+      "Description": "Social and commerce data from 50+ platforms in one JSON schema",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Social",
+      "Link": "https://www.socialcrawl.dev/docs"
+    },
+    {
       "API": "SocialSwarm",
       "Description": "Turn articles into ready-to-post X thread drafts with different hooks",
       "Auth": "`apiKey`",
@@ -12538,6 +12610,15 @@
       "Cors": "No",
       "Category": "Social",
       "Link": "https://www.xfluxapi.com/docs/api"
+    },
+    {
+      "API": "5DollarFootball",
+      "Description": "Football fixtures, results, standings and historical odds with corner and card lines",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Sports & Fitness",
+      "Link": "https://5dollarfootballapi.com/"
     },
     {
       "API": "API-FOOTBALL",
@@ -14592,6 +14673,15 @@
       "Link": "https://json2video.com"
     },
     {
+      "API": "KinoPipe",
+      "Description": "Typed hosted video editing operations for agents and automation",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "No",
+      "Category": "Video",
+      "Link": "https://kinopipe.com/docs"
+    },
+    {
       "API": "Lucifer Quotes",
       "Description": "Returns Lucifer quotes",
       "Auth": "No",
@@ -15040,6 +15130,15 @@
       "Cors": "Yes",
       "Category": "Weather",
       "Link": "https://open-meteo.com/"
+    },
+    {
+      "API": "Open-Meteo Ensemble",
+      "Description": "Weather ensemble forecasts from multiple models",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Weather",
+      "Link": "https://open-meteo.com/en/docs/ensemble-api"
     },
     {
       "API": "openSenseMap",
