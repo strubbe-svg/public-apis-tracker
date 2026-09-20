@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-09-06T08:11:15.230Z",
-  "count": 1749,
+  "fetchedAt": "2026-09-13T08:11:44.842Z",
+  "count": 1771,
   "entries": [
     {
       "API": "AdoptAPet",
@@ -723,6 +723,15 @@
       "Link": "https://data.rijksmuseum.nl/object-metadata/api/"
     },
     {
+      "API": "Smithsonian Open Access",
+      "Description": "Smithsonian collection metadata and open-access digital media",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Art & Design",
+      "Link": "https://github.com/Smithsonian/smithsonian-openaccess"
+    },
+    {
       "API": "Thisispaper",
       "Description": "Curated architecture, design, photography and art projects with visual-similarity and taste metadata",
       "Auth": "`apiKey`",
@@ -1261,6 +1270,15 @@
       "Cors": "Unknown",
       "Category": "Business",
       "Link": "https://instatus.com/help/api"
+    },
+    {
+      "API": "InvoiceIn",
+      "Description": "Parse and validate received e-invoices: XRechnung, ZUGFeRD, Peppol, FatturaPA, KSeF",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Business",
+      "Link": "https://invoicein.peculiar.systems/"
     },
     {
       "API": "Invovate",
@@ -2928,6 +2946,15 @@
       "Link": "https://apis.guru/api-doc/"
     },
     {
+      "API": "APIzone",
+      "Description": "Independent uptime & status monitoring for 200+ popular APIs",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Development",
+      "Link": "https://apizone.io/api-docs"
+    },
+    {
       "API": "Aquanode",
       "Description": "Live GPU rental prices and availability across nine cloud providers",
       "Auth": "No",
@@ -3738,6 +3765,15 @@
       "Link": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md"
     },
     {
+      "API": "NuGet",
+      "Description": ".NET package versions, metadata and search",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Development",
+      "Link": "https://learn.microsoft.com/en-us/nuget/api/overview"
+    },
+    {
       "API": "OneSignal",
       "Description": "Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App",
       "Auth": "`apiKey`",
@@ -3826,6 +3862,15 @@
       "Cors": "Yes",
       "Category": "Development",
       "Link": "https://pagecdn.com/docs/public-api"
+    },
+    {
+      "API": "Peak",
+      "Description": "Cloudflare Turnstile and 5-second challenge solving, pay per successful solve, 1,000 free solves",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Development",
+      "Link": "https://peak.fo/docs"
     },
     {
       "API": "Phone Specs",
@@ -4782,6 +4827,15 @@
       "Link": "https://atomic-mail.github.io/atomic-mail-agentic/"
     },
     {
+      "API": "Best Temp Mail",
+      "Description": "Disposable inboxes for automated email testing, with OTP extraction",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "No",
+      "Category": "Email",
+      "Link": "https://best-tempmail.com/api"
+    },
+    {
       "API": "Cloudmersive Validate",
       "Description": "Validate email addresses, phone numbers, VAT numbers and domain names",
       "Auth": "`apiKey`",
@@ -4978,6 +5032,15 @@
       "Cors": "Yes",
       "Category": "Entertainment",
       "Link": "https://anycrap.shop/developers"
+    },
+    {
+      "API": "Bucketlist Dream of the Day",
+      "Description": "Daily travel and life-experience inspiration with canonical links and images",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Entertainment",
+      "Link": "https://bucketlist.nl/samenwerken?lang=en#droom-van-de-dag"
     },
     {
       "API": "chucknorris.io",
@@ -5509,6 +5572,15 @@
       "Cors": "Yes",
       "Category": "Finance",
       "Link": "https://eodhd.com/"
+    },
+    {
+      "API": "EstimateTax",
+      "Description": "US federal, state and local income tax calculation for 2026, with the source of every figure",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Finance",
+      "Link": "https://estimatetax.net/api/"
     },
     {
       "API": "FarmDash",
@@ -8904,6 +8976,15 @@
       "Link": "https://developer.company-information.service.gov.uk/"
     },
     {
+      "API": "UK Legislation Changes",
+      "Description": "Point-in-time amendment history for UK law",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Government",
+      "Link": "https://uk-legal-changes.pages.dev/docs"
+    },
+    {
       "API": "US Presidential Election Data by TogaTech",
       "Description": "Basic candidate data and live electoral vote counts for top two parties in US presidential election",
       "Auth": "No",
@@ -9406,6 +9487,15 @@
       "Cors": "Unknown",
       "Category": "Jobs",
       "Link": "http://api.jobs2careers.com/api/spec.pdf"
+    },
+    {
+      "API": "Jobven",
+      "Description": "Job postings tracked as roles open and close, with webhooks on changes, from employer career pages",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Jobs",
+      "Link": "https://jobven.com/docs/getting-started"
     },
     {
       "API": "Jooble",
@@ -10722,6 +10812,15 @@
       "Link": "http://www.scoop.it/dev"
     },
     {
+      "API": "SlashYear",
+      "Description": "86,902 historical events as JSON, each quoted from a cited Wikipedia revision",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Open Data",
+      "Link": "https://slashyear.com/api"
+    },
+    {
       "API": "Socrata",
       "Description": "Access to Open Data from Governments, Non-profits and NGOs around the world",
       "Auth": "`OAuth`",
@@ -10909,6 +11008,15 @@
       "Cors": "Yes",
       "Category": "Open Source Projects",
       "Link": "https://github.com/anuraghazra/github-readme-stats"
+    },
+    {
+      "API": "Libraries.io",
+      "Description": "Metadata, dependencies and release history for open-source packages across 30+ managers",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Open Source Projects",
+      "Link": "https://libraries.io/api"
     },
     {
       "API": "Metabase",
@@ -11469,6 +11577,15 @@
       "Link": "https://resmush.it/api"
     },
     {
+      "API": "Screenshot Studio",
+      "Description": "Capture web pages as images through a public HTTP API",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "No",
+      "Category": "Photography",
+      "Link": "https://www.screenshot-studio.com/docs"
+    },
+    {
       "API": "shutterstock",
       "Description": "Stock Photos and Videos",
       "Auth": "`OAuth`",
@@ -11827,6 +11944,15 @@
       "Cors": "Yes",
       "Category": "Science & Math",
       "Link": "https://github.com/elizabethadegbaju/remotecalc"
+    },
+    {
+      "API": "Semantic Scholar",
+      "Description": "Academic search engine for papers, authors, and citations",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Science & Math",
+      "Link": "https://api.semanticscholar.org/"
     },
     {
       "API": "SHARE",
@@ -12783,6 +12909,15 @@
       "Link": "https://postlake.dev/docs/"
     },
     {
+      "API": "Postproxy",
+      "Description": "Publish posts, comments, DMs, and more",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "No",
+      "Category": "Social",
+      "Link": "https://postproxy.dev/getting-started/quickstart/"
+    },
+    {
       "API": "Product Hunt",
       "Description": "The best new products in tech",
       "Auth": "`OAuth`",
@@ -12916,6 +13051,15 @@
       "Cors": "Yes",
       "Category": "Social",
       "Link": "https://trashnothing.com/developer"
+    },
+    {
+      "API": "TrendsMCP",
+      "Description": "Live keyword trend data from Google, TikTok, YouTube, Amazon and Reddit",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Social",
+      "Link": "https://www.trendsmcp.ai/docs"
     },
     {
       "API": "Tumblr",
@@ -13863,6 +14007,15 @@
       "Link": "https://tisane.ai/"
     },
     {
+      "API": "ToHuman",
+      "Description": "Rewrite AI-assisted drafts into natural, human-sounding text that reads like you wrote it",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Text Analysis",
+      "Link": "https://tohuman.io/ai-humanizer-api"
+    },
+    {
       "API": "Watson Natural Language Understanding",
       "Description": "Natural language processing for advanced text analysis",
       "Auth": "`OAuth`",
@@ -14023,6 +14176,15 @@
       "Cors": "Yes",
       "Category": "Transportation",
       "Link": "https://apimetro.dev/swagger/index.html"
+    },
+    {
+      "API": "ArcNautical",
+      "Description": "Screen any ship by IMO for OFAC/EU/UN/UK sanctions, ownership opacity and a vetting grade",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "Yes",
+      "Category": "Transportation",
+      "Link": "https://arcnautical.com/developers/"
     },
     {
       "API": "Aviation Safety Data",
@@ -14691,6 +14853,15 @@
       "Link": "https://wanderatlasguides.com/api/"
     },
     {
+      "API": "Windsock",
+      "Description": "Aircraft valuations, FAA registry lookups, cost of ownership and aviation market data",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Transportation",
+      "Link": "https://windsock.ai/app/docs"
+    },
+    {
       "API": "1pt",
       "Description": "A simple URL shortener",
       "Auth": "No",
@@ -14959,6 +15130,15 @@
       "Cors": "Yes",
       "Category": "Vehicle",
       "Link": "https://smartcar.com/docs/"
+    },
+    {
+      "API": "Wheelwise",
+      "Description": "UK used-car listings with fair-price grade, 36-month resale forecast and true monthly cost per advert",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "No",
+      "Category": "Vehicle",
+      "Link": "https://cars.limoja.ai/api/search?q=BMW&limit=1"
     },
     {
       "API": "An API of Ice And Fire",
@@ -15519,6 +15699,15 @@
       "Link": "https://api.ipma.pt/open-data/"
     },
     {
+      "API": "KNMI",
+      "Description": "Dutch weather, radar and climate data",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Weather",
+      "Link": "https://developer.dataplatform.knmi.nl/"
+    },
+    {
       "API": "Meltema",
       "Description": "Multi-model weather: GFS, ECMWF AIFS/IFS and a 31-member GEFS ensemble, keyless point forecasts",
       "Auth": "No",
@@ -15526,6 +15715,15 @@
       "Cors": "No",
       "Category": "Weather",
       "Link": "https://meltema.com/docs"
+    },
+    {
+      "API": "Météo-France",
+      "Description": "French weather forecasts and alerts",
+      "Auth": "`apiKey`",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Category": "Weather",
+      "Link": "https://portail-api.meteofrance.fr/"
     },
     {
       "API": "Meteorologisk Institutt",
