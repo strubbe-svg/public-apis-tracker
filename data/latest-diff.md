@@ -1,324 +1,240 @@
-# Public APIs Sync — Sun Oct 04 2026
+# Public APIs Sync — Sun Oct 11 2026
 
 ## Summary
 | Metric | Count |
 |--------|-------|
-| Previous total | 1935 |
-| Current total  | 2021 |
-| ✅ Added        | 99 |
-| ❌ Removed      | 13 |
+| Previous total | 2021 |
+| Current total  | 2052 |
+| ✅ Added        | 54 |
+| ❌ Removed      | 23 |
 | 🔄 Category changed | 0 |
 
 ## ✅ New APIs
 
 ### APIs Covered Under APILayer Suite!
-- **[OpenSwissData](https://github.com/cammac-creator/openswissdata/tree/main/sdks/mcp-server)** _(APIs Covered Under APILayer Suite!)_ — Swiss customs tariff (TARES), FINMA register and warnings, NOGA/NACE/ISIC code crosswalks
-  Auth: `No` · CORS: [Glama](https://glama.ai/mcp/connectors/io.github.cammac-creator/openswissdata) · ⚠️ HTTP
-- **[Kuro](https://meetkuro.com/agents/)** _(APIs Covered Under APILayer Suite!)_ — Create AI images, video clips, voice-overs, music and editable storyboard films
-  Auth: ``OAuth`` · CORS: – · ⚠️ HTTP
-- **[corpusAI Cloud Pricing](https://cloud.trycorpus.ai/docs#quick-start-for-agents)** _(APIs Covered Under APILayer Suite!)_ — Cloud, GPU and LLM token prices for agents, free discovery tools and paid per-call data
-  Auth: `No` · CORS: [npm](https://www.npmjs.com/package/corpus-cloud-pricing-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=corpus-cloud-pricing) · ⚠️ HTTP
-- **[RegSentry](https://regsentry.com/mcp-guide)** _(APIs Covered Under APILayer Suite!)_ — Inspect authorized static tracking signals and review supplied consent evidence
-  Auth: `No` · CORS: [Glama](https://glama.ai/mcp/connectors/com.regsentry/tracking-inspector) · ⚠️ HTTP
-- **[Twinbay](https://docs.twinbay.ai/mcp-server)** _(APIs Covered Under APILayer Suite!)_ — Spin up stateful API twins, read request logs and grade agent runs
-  Auth: ``OAuth`` · CORS: – · ⚠️ HTTP
-- **[Vuntum](https://github.com/RAAAAAGEEEEE/vuntum-mcp)** _(APIs Covered Under APILayer Suite!)_ — Sourced, dated data on consumer robots and physical AI: specs, prices, evidence
-  Auth: `No` · CORS: [Glama](https://glama.ai/mcp/servers/RAAAAAGEEEEE/vuntum-mcp) · ⚠️ HTTP
+- **[Monocrawl](https://github.com/monocrawl/monocrawl-mcp)** _(APIs Covered Under APILayer Suite!)_ — Public posts, profiles, comments and products from 70+ social, shopping and search platforms
+  Auth: ``apiKey`` · CORS: [Glama](https://glama.ai/mcp/connectors/com.monocrawl/mcp) · ⚠️ HTTP
+- **[Catastro GPS](https://github.com/TheHiddenPandaDev/catastro_gps_mcp)** _(APIs Covered Under APILayer Suite!)_ — Cadastral parcels in 29 European countries by reference, point or address
+  Auth: ``apiKey`` · CORS: [Glama](https://glama.ai/mcp/servers/TheHiddenPandaDev/catastro_gps_mcp) · ⚠️ HTTP
+- **[Edgepedia](https://github.com/EdgePlat/edgepedia-mcp)** _(APIs Covered Under APILayer Suite!)_ — Search and read Edgepedia, a free and growing encyclopedia with citations
+  Auth: `No` · CORS: [Glama](https://glama.ai/mcp/connectors/ai.edgechat/edgepedia) · ⚠️ HTTP
+- **[Silicon Floor](https://siliconfloor.com/docs/mcp)** _(APIs Covered Under APILayer Suite!)_ — Who owns AI and chip stocks, what insiders sell, how fast they grow: answers from SEC filings
+  Auth: `No` · CORS: [Anthropic](https://claude.ai/directory/silicon-floor) · [Glama](https://glama.ai/mcp/connectors/com.siliconfloor/silicon-floor) · ⚠️ HTTP
 
 ### Art & Design
-- **[raFont](https://rafont.com/api-docs)** _(Art & Design)_ — 1,500+ free downloadable fonts with categories, tags and preview images
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[The Color API](https://www.thecolorapi.com)** _(Art & Design)_ — Convert and generate color schemes
+- **[PickShade](https://pickshade.com/api)** _(Art & Design)_ — Convert colors, check WCAG and APCA contrast, build palettes, gradients and tokens
   Auth: `No` · CORS: Yes · 🔒 HTTPS
 
-### Blockchain
-- **[Dwellir](https://www.dwellir.com/docs)** _(Blockchain)_ — RPC endpoints for 150+ blockchain networks, including Ethereum, Solana, Polkadot and Hyperliquid
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-
-### Business
-- **[PeopleSearch](https://peoplesearch.im/developers)** _(Business)_ — People and company search in plain English, with verified work emails and email verification
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
-- **[UGC VZ](https://ugc-vz.de/developers)** _(Business)_ — Directory of DACH user-generated-content creators with topics, cities, rates and contact requests
-  Auth: `No` · CORS: No · 🔒 HTTPS
-
-### Calendar
-- **[India Public Holidays](https://calendar-api-web.vercel.app/docs)** _(Calendar)_ — Official Indian public holidays for the Central government and 36 states/UTs
+### Books
+- **[BookRank](https://openbookrank.com/en/open-data)** _(Books)_ — Book rankings from open reader ratings: books, series, reading orders and authors
   Auth: `No` · CORS: Yes · 🔒 HTTPS
+
+### Continuous Integration
+- **[CircleCI](https://circleci.com/docs/api/)** _(Continuous Integration)_ — Automate the software development process using continuous integration and continuous delivery
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
 
 ### Cryptocurrency
-- **[BitcoinYield](https://bitcoinyield.co/docs)** _(Cryptocurrency)_ — Live yields on BTC, ETH and stablecoins across DeFi and CeFi, with an A-D risk grade per offer
+- **[0x](https://docs.0x.org/)** _(Cryptocurrency)_ — API for querying token and pool stats across various liquidity pools
   Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[bilbop](https://api.bilbop.org)** _(Cryptocurrency)_ — Solana USDC x402 pay-per-call tools for agents: SPL mint info, token brief, text summarize, Piper TTS, brand feedback
+- **[Alchemy Ethereum](https://www.alchemy.com/docs/)** _(Cryptocurrency)_ — Ethereum Node-as-a-Service Provider
+  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
+- **[Bitculator](https://bitculator.com/en/documentation/api/v1)** _(Cryptocurrency)_ — Crypto prices, OHLCV history, sentiment, technical indicators, exchanges and liquidations
+  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
+- **[Bybit](https://www.bybit.com/docs/v5/introduction)** _(Cryptocurrency)_ — Cryptocurrency data feed and algorithmic trading
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
+- **[Coinlib](https://coinlib.io/)** _(Cryptocurrency)_ — Crypto Currency Prices
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
+- **[WhiteBIT](https://docs.whitebit.com)** _(Cryptocurrency)_ — European cryptocurrency exchange
   Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[Dudelytics](https://dudelytics.com/en/dpmi/data/)** _(Cryptocurrency)_ — Productive crypto indices, daily benchmarks, sector indices and market-stress data
-  Auth: `No` · CORS: No · 🔒 HTTPS
 
 ### Currency Exchange
-- **[Daleelak](https://getdaleelak.com/en/api)** _(Currency Exchange)_ — Egyptian bank and dealer exchange rates, gold and silver prices
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-
-### Data Validation
-- **[sthan.io Address Autocomplete](https://sthan.io/products/address-autocomplete-usa)** _(Data Validation)_ — Real-time US address suggestions as users type
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
+- **[Nerkhsanj](https://nerkh.jahankhahan.shop/developers/en)** _(Currency Exchange)_ — Iran free-market USD, EUR, CNY, gold and coin rates in toman, live and daily archive since 2010
+  Auth: `No` · CORS: No · 🔒 HTTPS
 
 ### Development
-- **[AgentPay Domain Lookup](https://agentpay-lookup.agentpay-apis.workers.dev)** _(Development)_ — DNS records, WHOIS/RDAP, IP ownership and domain reports for AI agents, paid per call via x402
+- **[GeraCode](https://www.geracodigo.com.br/api-codigo-de-barras)** _(Development)_ — Barcode (EAN-13, UPC-A, Code 128, ITF-14) and QR code images, PNG or SVG. Docs in Portuguese
   Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[AnswerLine](https://answerline.dev)** _(Development)_ — Answers, citations and sources from AI assistants and Google surfaces through one API
+- **[jstash](https://jstash.app/docs/)** _(Development)_ — Save JSON with one request and get a URL; private JSON for each signed-in user of your app
+  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
+- **[OneSignal](https://developers.onesignal.com/)** _(Development)_ — Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
+- **[RealUptime](https://realuptime.io/docs/api)** _(Development)_ — Manage uptime monitors, heartbeat checks, incidents and status pages with an API key
+  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
+- **[SnapRender](https://snap-render.com/docs)** _(Development)_ — Website screenshots as PNG, JPEG, WebP or PDF, and page content as markdown, with a free tier
   Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[API Tool Calls](https://apitoolcalls.com/api/)** _(Development)_ — API Tool Calls: Home cost planners, page to Markdown, SEO checks and recalls
-  Auth: `No` · CORS: No · 🔒 HTTPS
-- **[BountyCheck](https://bountycheck.vercel.app)** _(Development)_ — Claimability verdicts for GitHub bounty issues; free stats and sample, checks paid per call via x402
+- **[TheQRCode](https://theqrcode.io/qr-code-api)** _(Development)_ — Generate QR codes for URLs, WiFi, contact cards, email and text, with custom colors and styling
   Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[ChartBytes](https://chartbytes.meridian-digital.pro)** _(Development)_ — Chart image API: turn a URL into a PNG or SVG chart (bar, line, area, scatter, pie, donut, stacked)
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[Index Agentica](https://indexagentica.com/agents/)** _(Development)_ — Agent-first directory of skills, MCP servers, tools, protocols and APIs as JSON, markdown, llms.txt
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[Ironfang Render](https://ironfang.com/render/docs)** _(Development)_ — Screenshots, PDFs, dynamic images, QR codes and video from URLs or HTML
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
-- **[ReplyNodes](https://replynodes.com/markdown-api/)** _(Development)_ — Convert a public web page into clean Markdown
-  Auth: `No` · CORS: No · 🔒 HTTPS
-- **[ScrapingBot](https://scrapingbot.io)** _(Development)_ — Web scraping, AI extraction, and public TikTok, Instagram, Google and Amazon data as JSON
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
-- **[Scrappa](https://scrappa.co/docs)** _(Development)_ — Google Search, Maps, Jobs, YouTube and review site results as structured JSON
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[Screenshot Happy](https://screenshot-api-production-ffd7.up.railway.app/docs)** _(Development)_ — Website screenshot API (PNG/JPEG/PDF) with full-page capture and visual-diff monitors
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
-- **[TidyTools](https://tools.yukai.uk/llms.txt)** _(Development)_ — Web page to clean Markdown and AI crawler robots.txt checks, free without a key (rate limited)
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[Vornamencheck](https://vornamencheck.de/#api)** _(Development)_ — Gender probability for a first name, optionally per country; documentation in German
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-
-### Dictionaries
-- **[WordSoHard](https://wordsohard.com/api)** _(Dictionaries)_ — Word definitions with Scrabble validity and tile score in one call, built for word games
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-
-### Documents & Productivity
-- **[AgentPay Doc Tools](https://agentpay-tools.agentpay-apis.workers.dev)** _(Documents & Productivity)_ — PDF to text, RSS/Atom/JSON feeds to JSON and sitemaps to URL lists, paid per call via x402
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[DocCheap](https://doc.cheap/docs)** _(Documents & Productivity)_ — Read passports, ID cards and driver's licences into JSON, $0.01 per recognised document
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[Sahifa](https://sahifa.dev/en/docs)** _(Documents & Productivity)_ — HTML/URL to PDF and screenshots with Arabic and right-to-left support; free tier
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
-- **[Shortcut](https://developer.shortcut.com)** _(Documents & Productivity)_ — Manage stories, epics, iterations and objectives in a Shortcut workspace
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
-- **[Thirds](https://thirds.ai/docs/api)** _(Documents & Productivity)_ — Create branded PDFs and images from HTML or reusable templates
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
 
 ### Email
-- **[MailRambo](https://www.mailrambo.com/developers)** _(Email)_ — Verify email deliverability with a strict yes/no, disposable and catch-all detection
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
-
-### Events
-- **[FindLocal](https://findlocal.community/docs)** _(Events)_ — Hyper-local US events: concerts, trivia, open mics, readings, storytimes
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
+- **[Sendinblue](https://developers.brevo.com/)** _(Email)_ — A service that provides solutions relating to marketing and/or transactional email and/or SMS
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
 
 ### Finance
-- **[Alpaca](https://docs.alpaca.markets/us/docs/about-market-data-api)** _(Finance)_ — Realtime and historical market data on all US equities and ETFs
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[Arkleon](https://arkleon.com)** _(Finance)_ — Point-in-time SEC EDGAR fundamentals over /v1
+- **[FloorGuard](https://floorguard-kappa.vercel.app/api/)** _(Finance)_ — Sourced prop firm daily-loss and max-drawdown rules, plus a drawdown-room check
+  Auth: `No` · CORS: Yes · 🔒 HTTPS
+- **[Klarna](https://docs.klarna.com/klarna-payments/)** _(Finance)_ — Klarna payment and shopping service
   Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
-- **[Brainy Prices](https://prices.brainy.ae/developers.html)** _(Finance)_ — UAE living costs: KHDA fees, DLD rents, fuel, utilities, telecom and relocation, with dated sources
+- **[TickerInside](https://tickerinside.com/api/)** _(Finance)_ — Holdings of every US ETF, which ETFs hold a stock, and overlap between funds, each dated
   Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[contix](https://contix.es/api/#herramientas)** _(Finance)_ — Spain: IBAN validation with bank and BIC, EU VAT number check (VIES), Modelo 303 VAT sums
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[matchwire.win](https://matchwire.win/docs/)** _(Finance)_ — Matched prediction-market games across Kalshi, Polymarket US/Intl and Predict.fun
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
-- **[Pink Agentic AI Payments](https://pinkwallet.com/agentic/developers/)** _(Finance)_ — Approval layer for AI agent payments: per-agent budgets, rules, single-use credentials, sandbox
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[Segmara](https://segmara.com/syndicate)** _(Finance)_ — IPO calendars, filing stages and estimated lockup dates
-  Auth: ``User-Agent`` · CORS: Yes · 🔒 HTTPS
 
 ### Food & Drink
-- **[CookbookSocial Nutrition](https://cookbooksocial.app/api)** _(Food & Drink)_ — Nutrition data for 4,631 ingredients with food names in 19 languages
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
-- **[Noms](https://noms.sh/docs)** _(Food & Drink)_ — Nutrition data for 3.7M foods and 298K brands across 230 countries, with barcodes and images
+- **[Tiny Plates](https://www.tinyplates.dev/docs)** _(Food & Drink)_ — Structured recipes, semantic search, serving adjustments and shopping lists
   Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-
-### Games & Comics
-- **[TickerMint](https://tickermint.cards/developers)** _(Games & Comics)_ — Daily market prices and price history for Pokémon, One Piece, Lorcana and Yu-Gi-Oh cards
-  Auth: `No` · CORS: No · 🔒 HTTPS
 
 ### Geocoding
-- **[Locio](https://locio.com.au/docs/)** _(Geocoding)_ — Australian address autocomplete, validation and geocoding from the G-NAF national register
+- **[Network Data Labs](https://www.networkdatalabs.com/docs)** _(Geocoding)_ — IP geolocation with accuracy radius, ASN, and flags for Tor exits, known VPN networks and hosting
+  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
+- **[ParcelGPS](https://www.parcelgps.com/en/developers)** _(Geocoding)_ — European cadastral parcels by reference or point: coordinates, area, land use and geometry
   Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[sthan.io India PIN Code Autocomplete](https://sthan.io/products/pincode-autocomplete-ind)** _(Geocoding)_ — Autocomplete Indian PIN codes as users type
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
-- **[sthan.io Reverse Geocoding](https://sthan.io/products/reverse-geocoding-usa)** _(Geocoding)_ — Convert latitude and longitude to the nearest US street address
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
+- **[SearchPinCode](https://searchpincode.in/api)** _(Geocoding)_ — Indian postal PIN code lookup, post office locator and district data
+  Auth: `No` · CORS: Yes · 🔒 HTTPS
+- **[Zornade](https://app.zornade.com/api/)** _(Geocoding)_ — Cadastral parcels, geocoding, OMI valuations, risk and demographics for Italy (85M parcels)
+  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
 
 ### Government
-- **[Open Government, Portugal](https://dados.gov.pt/en/recursos/desenvolvimento/referencia-api)** _(Government)_ — Portugal Government Open Data
+- **[ContaCLT](https://contaclt.com/dados/api/)** _(Government)_ — Brazilian payroll and labor calculations: net salary, INSS, IRRF, unemployment insurance
   Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[SukuuData](https://sukuudata.com/quickstart)** _(Government)_ — Ghana's schools, 2026 SHS placement register and CSSPS choice validation
+- **[GovContractScout](https://scout.govbidportals.com)** _(Government)_ — US state & local government contracts: search, details, NAICS lookup and AI match scoring
   Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[Veridion](https://www.veridionmarkets.com/data-api/docs)** _(Government)_ — US congressional stock-trade disclosures and the President's OGE reports, linked to each filing
+- **[Indian MSP Benchmarks](https://msp-benchmarks-api.vercel.app/docs)** _(Government)_ — Statutory Minimum Support Prices and CACP production cost benchmarks across 28 Indian crops
   Auth: `No` · CORS: Yes · 🔒 HTTPS
 
 ### Jobs
-- **[Dabloons](https://dabloons.net/llms.txt)** _(Jobs)_ — Bounty board where AI agents post and work tasks like PR reviews, bug repros and install checks
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
-- **[Jobs2Careers](https://docs.talroo.com/api/search)** _(Jobs)_ — Job aggregator
-  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
-- **[Techmap](https://api.techmap.io/jobs-api)** _(Jobs)_ — Job postings from 185 sources in 250 countries and territories, with an archive since 2020
+- **[HireLayer](https://hirelayer.co/api-docs)** _(Jobs)_ — Parse resumes and job descriptions, normalize skills, match and rank candidates
   Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[Vibeworker](https://tryvibeworker.com/docs)** _(Jobs)_ — Upwork job listings with client data and AI fit scores, plus webhooks and RSS
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
+- **[Worklittle](https://docs.worklittle.com)** _(Jobs)_ — Job search, over 4 million jobs
+  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
 
 ### Machine Learning
-- **[AnswerLine](https://answerline.dev/docs)** _(Machine Learning)_ — ChatGPT, Gemini, Copilot, AI Mode and Google Search/News results as structured JSON
-  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
-- **[Cohere](https://docs.cohere.com/reference/about)** _(Machine Learning)_ — NLP API for text generation, embeddings, classification and summarization with a free trial tier
+- **[Laya Decision Gateway](https://laya.harshad.eu.org)** _(Machine Learning)_ — Sub-35ms AI gateway for prompt injection defense, support ticket triage & content moderation
   Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[GEN](https://gen.pro/docs#ai-agents)** _(Machine Learning)_ — Create and edit video projects, with credit-based AI media generation
+- **[Mistral AI](https://docs.mistral.ai/api/)** _(Machine Learning)_ — High-performance LLM API by Mistral AI including Mistral and Mixtral models, with a free tier
   Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[Nonobench](https://www.nonobench.com/how-it-works)** _(Machine Learning)_ — Open-source benchmark of how well LLMs solve nonogram puzzles
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[OpenRouter](https://openrouter.ai/docs/quick-start)** _(Machine Learning)_ — Unified API for 300+ LLMs from OpenAI, Anthropic, Meta, Mistral and more, with a free tier
+- **[SafeReel](https://safereel.ai/docs)** _(Machine Learning)_ — NSFW detection for images and full-length videos by URL, free tier
   Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[Replicate](https://replicate.com/docs/reference/http)** _(Machine Learning)_ — Run open-source AI models in the cloud including image generation, LLMs and audio models
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[Speak AI](https://docs.speakai.co)** _(Machine Learning)_ — Transcribe and analyze audio and video in 100+ languages
-  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
-- **[Together AI](https://docs.together.ai/docs/quickstart)** _(Machine Learning)_ — Fast inference API for open-source LLMs including Llama, Qwen, DeepSeek with a free tier
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[TokenRoute](https://tokenroute.app/docs/quickstart)** _(Machine Learning)_ — One OpenAI-compatible endpoint for hundreds of LLMs, with a free tier and per-token pricing
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[Voxell Forge](https://voxell.ai/docs/#forge)** _(Machine Learning)_ — OpenAI-compatible text embeddings API, free-forever model with no credit card required
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
 
 ### Open Data
-- **[CollegeCalcAI](https://collegecalcai.com/developers)** _(Open Data)_ — US college admission chance estimates and admissions data for 1,100+ colleges
+- **[Band Atlas](https://www.aiotrf.com/en/ai/band-atlas/developers/)** _(Open Data)_ — Cellular IoT bands, 2G/3G sunsets and device compatibility for 46 countries
   Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[CoworkingView](https://coworkingview.com/en/api)** _(Open Data)_ — Coworking spaces and offices in 63 European and Gulf cities with operator-published prices
+- **[CityAlert](https://cityalert.live/developers)** _(Open Data)_ — Live public-safety incidents: crime, fire, disaster, weather and news from 650+ official feeds
   Auth: `No` · CORS: No · 🔒 HTTPS
-- **[DevLifeCheck](https://devlifecheck.com/developers)** _(Open Data)_ — Security-update end dates, recalls and evidence for 1,300+ phones, tablets, Chromebooks and routers
-  Auth: `No` · CORS: No · 🔒 HTTPS
-- **[Edgepedia](https://www.edgechat.ai/developers)** _(Open Data)_ — Search and read Edgepedia, a free and growing encyclopedia with citations
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[StatOrigin](https://statorigin.org/docs/api)** _(Open Data)_ — Industry statistics, each traced to its primary source with a verbatim quote, CC BY 4.0
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[The Deploy Log](https://github.com/dotcomjack/the-deploy-log)** _(Open Data)_ — 1,000+ AI deployments, each linked to the publisher's own page, JSON and CSV, CC BY 4.0
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[Vuntum](https://vuntum.com/en/api-mcp)** _(Open Data)_ — Sourced, dated facts on consumer robots and physical AI, licensed CC BY 4.0
+- **[Nasdaq Data Link](https://data.nasdaq.com/)** _(Open Data)_ — Stock market data
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
+- **[TerraScoutX](https://terrascoutx.com/developers/)** _(Open Data)_ — US property records by address: parcel, owner, appraised value, tax, flood zone and nearby schools
+  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
+- **[Tickerz](https://tickerz.com/docs)** _(Open Data)_ — Daily indexes of real-world activity from public data, each reading timestamped in Bitcoin
   Auth: `No` · CORS: Yes · 🔒 HTTPS
 
-### Personality
-- **[Astro Agents](https://astro-agent.dev/llms.txt)** _(Personality)_ — Deterministic Western and Vedic astrology: natal charts, transits, kundli, dashas, panchang
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-
-### Phone
-- **[PlaceCall](https://api.voygr.tech/docs)** _(Phone)_ — AI agent places phone calls to US businesses and returns the outcome, transcript and recording
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
+### Open Source Projects
+- **[Countly](https://api.count.ly/)** _(Open Source Projects)_ — Countly web analytics
+  Auth: `No` · CORS: Unknown · ⚠️ HTTP
 
 ### Photography
-- **[Lightdrift](https://docs.lightdrift.ai)** _(Photography)_ — Search 1.85M openly licensed images by text or image, with license and attribution per result
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
+- **[CompressGIF](https://compressgif.net/docs)** _(Photography)_ — Compress GIF files or HTTPS URLs with asynchronous jobs and target-size controls
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
+- **[NexWall](https://nexwall.kodnextech.com/wallpaper-api/docs)** _(Photography)_ — Curated 4K portrait phone wallpapers across 50+ categories
+  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
 
 ### Science & Math
-- **[Botlero](https://botlero.com/api/robots)** _(Science & Math)_ — Sourced, quoted specs for humanoid robots
+- **[arXiv](https://info.arxiv.org/help/api/user-manual.html)** _(Science & Math)_ — Curated research-sharing platform: physics, mathematics, quantitative finance, and economics
+  Auth: `No` · CORS: Unknown · 🔒 HTTPS
+- **[Oliver's mTOR Atlas](https://mtor-atlas.org/api/)** _(Science & Math)_ — Curated mTOR research: studies by evidence type, pathway claims, open questions
   Auth: `No` · CORS: Yes · 🔒 HTTPS
 
 ### Security
-- **[Agent Verifier](https://packet.guru/agents/reference)** _(Security)_ — Self-check for AI agents: verifies Web Bot Auth signatures and shows how a request looks
-  Auth: `No` · CORS: No · 🔒 HTTPS
-- **[VPNDetection](https://docs.vpndetection.io/api)** _(Security)_ — Check whether an IPv4 or IPv6 address belongs to VPN infrastructure, no key needed
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-
-### Shopping
-- **[BirkinBagStock](https://birkinbagstock.com/.well-known/openapi.json)** _(Shopping)_ — Independent Hermès resale index: inventory, market prices, auction calendar and results
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[OneFindMe](https://onefindme.com/mcp)** _(Shopping)_ — Search AliExpress in any language: price, rating and orders for the delivery country
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[SoldStack](https://soldstack.fly.dev/docs)** _(Shopping)_ — Sold resale listings from Poshmark with median price, days to sell and net payout after fees
+- **[GreyNoise](https://docs.greynoise.io/reference/getcommunityip)** _(Security)_ — Query IPs in the GreyNoise dataset and retrieve a subset of the full IP context data
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
+- **[isMalicious](https://ismalicious.com/api-docs)** _(Security)_ — Reputation of IPs, domains, URLs and file hashes from aggregated threat feeds, plus CVE lookups
   Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
+- **[OSV](https://google.github.io/osv.dev/api/)** _(Security)_ — Open source vulnerability database and distributed triage infrastructure
+  Auth: `No` · CORS: Yes · 🔒 HTTPS
 
 ### Social
-- **[FastSocial Instagram Data](https://fastsocial.co/instagram-api/docs)** _(Social)_ — Public Instagram data: profiles, posts, reels, stories, comments and a daily top-accounts ranking
+- **[API Direct](https://apidirect.io/docs)** _(Social)_ — Real-time social media data from X, LinkedIn, Reddit, YouTube, Instagram, TikTok, Facebook and news
   Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[GramScraper](https://gramscraper.com)** _(Social)_ — Instagram and TikTok data API with 91 endpoints for profiles, posts, stories, reels, and comments
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-
-### Sports & Fitness
-- **[Football Leagues](https://football-api.yuvron.online/reference)** _(Sports & Fitness)_ — Standings, fixtures, live scores, lineups and player stats for 11 European football competitions
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[MoviOdds](https://moviodds.com/doc)** _(Sports & Fitness)_ — Real-time bet365 soccer odds, every market, pre-match and in-play, over REST and WebSocket
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[WhensTheRace](https://whenstherace.com/f1-schedule-json/)** _(Sports & Fitness)_ — F1 season schedule with UTC session start times as JSON, RSS and iCal
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-
-### Test Data
-- **[loremfile](https://loremfile.dev/docs/manifest)** _(Test Data)_ — Hotlinkable CC0 sample files in 78 formats, each with a SHA-256 in a JSON manifest
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[Supercrontab Mock Endpoints](https://supercrontab.com/mock)** _(Test Data)_ — Mock endpoints in 8 formats, each returning any of 14 HTTP status codes
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
 
 ### Transportation
-- **[ChargeAlong](https://chargealong.io/docs/)** _(Transportation)_ — EV charging sites in AU, NZ, US, UK and Canada, with nearby search and trip planning
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[ConnectMeGuru](https://www.connectmeguru.com/api/mcp)** _(Transportation)_ — Search and purchase prepaid travel eSIM data plans across 190+ countries
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[Cruise Itinerary](https://cruise-itinerary.com/docs)** _(Transportation)_ — Cruise sailings, day-by-day itineraries, weekly fare history, port traffic and a cruise price index
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
+- **[OpenSky Network](https://openskynetwork.github.io/opensky-api/)** _(Transportation)_ — Free real-time ADS-B aviation data
+  Auth: `No` · CORS: Unknown · 🔒 HTTPS
 
-### Vehicle
-- **[WhichTrim](https://whichtrim.com/developers/)** _(Vehicle)_ — US vehicle recalls, complaints, fuel economy, crash ratings, service bulletins and VIN decoding
+### URL Shorteners
+- **[owo](https://owo.vc/)** _(URL Shorteners)_ — A simple link obfuscator/shortener
+  Auth: `No` · CORS: Unknown · 🔒 HTTPS
+- **[Shrtlnk](https://shrtlnk.dev/)** _(URL Shorteners)_ — Simple and efficient short link creation
   Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-
-### Video
-- **[Arcmira](https://arcmira.com/docs)** _(Video)_ — Search indexed YouTube transcripts for timestamped passages and mentions
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[BulkTranscripts](https://bulktranscripts.co/docs)** _(Video)_ — YouTube transcripts for a video, a whole channel or a playlist, plus YouTube search
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[TranscriptYT](https://transcript-yt.com/docs)** _(Video)_ — YouTube transcripts as JSON, text, SRT or VTT in 150+ languages, with AI fallback
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
-- **[UGCdrop](https://ugcdrop.com/api)** _(Video)_ — Search real UGC video clips (reactions, hooks, b-roll) by emotion, niche, age and setting
-  Auth: `No` · CORS: Yes · 🔒 HTTPS
 
 ## ❌ Removed APIs
 
+### Continuous Integration
+- **[CircleCI](https://circleci.com/docs/api/v1-reference/)** _(Continuous Integration)_ — Automate the software development process using continuous integration and continuous delivery
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
+
 ### Cryptocurrency
-- **[CoinDesk](https://old.coindesk.com/coindesk-api/)** _(Cryptocurrency)_ — CoinDesk's Bitcoin Price Index (BPI) in multiple currencies
-  Auth: `No` · CORS: Unknown · 🔒 HTTPS
+- **[0x](https://0x.org/api)** _(Cryptocurrency)_ — API for querying token and pool stats across various liquidity pools
+  Auth: `No` · CORS: Yes · 🔒 HTTPS
+- **[Alchemy Ethereum](https://docs.alchemy.com/alchemy/)** _(Cryptocurrency)_ — Ethereum Node-as-a-Service Provider
+  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
+- **[Bybit](https://bybit-exchange.github.io/docs/linear/#t-introduction)** _(Cryptocurrency)_ — Cryptocurrency data feed and algorithmic trading
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
+- **[Coinlib](https://coinlib.io/apidocs)** _(Cryptocurrency)_ — Crypto Currency Prices
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
+- **[ScriptMasterLabs x402](https://acp-x402-scriptmasterlabs.onrender.com)** _(Cryptocurrency)_ — 100+ SEC, DeFi, crypto, and macro endpoints for AI agents via x402 micropayments
+  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
 
 ### Development
-- **[ChartBytes](https://chartbytes.onrender.com)** _(Development)_ — Chart image API: turn a URL into a PNG or SVG chart (bar, pie, donut, stacked)
+- **[Httpbin Cloudflare](https://cloudflare-quic.com/b/)** _(Development)_ — A Simple HTTP Request & Response Service with HTTP/3 Support by Cloudflare
   Auth: `No` · CORS: Yes · 🔒 HTTPS
-- **[Renderwolf](https://ironfang.uk/renderwolf/docs)** _(Development)_ — Screenshots, PDFs, dynamic images, QR codes and video from URLs or HTML
-  Auth: ``apiKey`` · CORS: No · 🔒 HTTPS
+- **[OneSignal](https://documentation.onesignal.com/docs/onesignal-api)** _(Development)_ — Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
+- **[Phone Specs](https://phone-specs-api-production.up.railway.app/docs)** _(Development)_ — Real-time smartphone specifications database for 263 devices
+  Auth: `No` · CORS: Yes · 🔒 HTTPS
+
+### Email
+- **[Sendinblue](https://developers.sendinblue.com/docs)** _(Email)_ — A service that provides solutions relating to marketing and/or transactional email and/or SMS
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
 
 ### Finance
-- **[Alpaca](https://alpaca.markets/docs/api-documentation/api-v2/market-data/alpaca-data-api-v2/)** _(Finance)_ — Realtime and historical market data on all US equities and ETFs
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
+- **[Klarna](https://docs.klarna.com/klarna-payments/api/payments-api/)** _(Finance)_ — Klarna payment and shopping service
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
+
+### Games & Comics
+- **[RPS 101](https://rps101.pythonanywhere.com/api)** _(Games & Comics)_ — Rock, Paper, Scissors with 101 objects
+  Auth: `No` · CORS: Yes · 🔒 HTTPS
 
 ### Government
-- **[Food Standards Agency](http://ratings.food.gov.uk/open-data/en-GB)** _(Government)_ — UK food hygiene rating data API
-  Auth: `No` · CORS: Unknown · ⚠️ HTTP
-- **[Open Government, Portugal](https://dados.gov.pt/en/docapi/)** _(Government)_ — Portugal Government Open Data
+- **[US Presidential Election Data by TogaTech](https://uselection.togatech.org/api/)** _(Government)_ — Basic candidate data and live electoral vote counts for top two parties in US presidential election
+  Auth: `No` · CORS: No · 🔒 HTTPS
+- **[US Federal Contracts & Grants](https://government-data-api.onrender.com/docs)** _(Government)_ — US federal contracts, grants, and agency spending data updated daily
   Auth: `No` · CORS: Yes · 🔒 HTTPS
 
-### Jobs
-- **[Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf)** _(Jobs)_ — Job aggregator
-  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
-
-### Machine Learning
-- **[IPS Online](https://docs.identity.ps/docs)** _(Machine Learning)_ — Face and License Plate Anonymization
-  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
+### Health
+- **[Clinical Trials Directory](https://trials.starfile.org/api)** _(Health)_ — Every clinical trial registered with ClinicalTrials.gov, indexed by condition and sponsor
+  Auth: `No` · CORS: Yes · 🔒 HTTPS
 
 ### Open Data
-- **[18F](http://18f.github.io/API-All-the-X/)** _(Open Data)_ — Unofficial US Federal Government API Development
-  Auth: `No` · CORS: Unknown · ⚠️ HTTP
-- **[CoworkingView](https://coworkingview.com/openapi.json)** _(Open Data)_ — Coworking spaces and offices in 63 European and Gulf cities with operator-published prices
-  Auth: `No` · CORS: No · 🔒 HTTPS
+- **[Nasdaq Data Link](https://docs.data.nasdaq.com/)** _(Open Data)_ — Stock market data
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
 
-### Photography
-- **[Bruzu](https://docs.bruzu.com)** _(Photography)_ — Image generation with query string
-  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
+### Open Source Projects
+- **[Countly](https://api.count.ly/reference)** _(Open Source Projects)_ — Countly web analytics
+  Auth: `No` · CORS: Unknown · ⚠️ HTTP
 
 ### Science & Math
-- **[Numbers](http://numbersapi.com)** _(Science & Math)_ — Facts about numbers
-  Auth: `No` · CORS: No · ⚠️ HTTP
+- **[arXiv](https://arxiv.org/help/api/user-manual)** _(Science & Math)_ — Curated research-sharing platform: physics, mathematics, quantitative finance, and economics
+  Auth: `No` · CORS: Unknown · 🔒 HTTPS
+
+### Security
+- **[GreyNoise](https://docs.greynoise.io/reference/get_v3-community-ip)** _(Security)_ — Query IPs in the GreyNoise dataset and retrieve a subset of the full IP context data
+  Auth: ``apiKey`` · CORS: Unknown · 🔒 HTTPS
 
 ### Transportation
-- **[Wander Atlas](https://wanderatlasguides.com/api/)** _(Transportation)_ — Hourly quiet and busy crowd windows for 620+ tourist attractions in 20 countries
+- **[FAA N-Number Registry](https://n-number.starfile.org/api)** _(Transportation)_ — Every FAA-registered civil aircraft in the United States, lookup by N-number or Mode S hex code
   Auth: `No` · CORS: Yes · 🔒 HTTPS
+- **[OpenSky Network](https://opensky-network.org/apidoc/index.html)** _(Transportation)_ — Free real-time ADS-B aviation data
+  Auth: `No` · CORS: Unknown · 🔒 HTTPS
+
+### URL Shorteners
+- **[owo](https://owo.vc/api)** _(URL Shorteners)_ — A simple link obfuscator/shortener
+  Auth: `No` · CORS: Unknown · 🔒 HTTPS
+- **[Shrtlnk](https://shrtlnk.dev/developer)** _(URL Shorteners)_ — Simple and efficient short link creation
+  Auth: ``apiKey`` · CORS: Yes · 🔒 HTTPS
